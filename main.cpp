@@ -13,7 +13,7 @@ int main() {
     cout << "Problem 2\n";
     cout<<problemSolution2(89, 45, 1982)<<endl;
     cout << "Problem 3\n";
-    cout<<problemSolution3(160, 'W')<<endl;
+    cout<<problemSolution3(165, 'M')<<endl;
     cout << "Problem 4\n";
     cout<<problemSolution4( "FF FF FF FF FF FF")<<endl;
     cout << "Problem 5\n";
