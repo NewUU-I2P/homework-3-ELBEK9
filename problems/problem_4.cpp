@@ -11,13 +11,13 @@ std::string problemSolution4(const std::string &macAddress) {
     int x;
     convert >> std::hex >> x;
     if (macAddress == "FF:FF:FF:FF:FF:FF") {
-        result = "broadcast";
+        result = "Broadcast";
     }
     else if (x % 2 == 0) {
-        result = "unicast";
+        result = "Unicast";
     }
     else if (x % 2 != 0){
-        result = "multicast";
+        result = "Multicast";
     }
     return result;
 }
