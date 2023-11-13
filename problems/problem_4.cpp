@@ -5,10 +5,12 @@ std::string problemSolution4(const std::string &macAddress) {
     std::stringstream ss;
     // make use of control flow statements
     ss<<macAddress;
-    std::string first, result;
+    std::string octet, result;
+    std::getline(ss, octet, ':');
+    std::stringstream convert(octet);
     int x;
-    ss >> first >> std::hex >> x;
-    if (x == 255) {
+    convert >> std::hex >> x;
+    if (macAddress == "FF:FF:FF:FF:FF:FF") {
         result = "broadcast";
     }
     else if (x % 2 == 0) {

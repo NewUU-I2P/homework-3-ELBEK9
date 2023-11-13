@@ -15,7 +15,7 @@ int main() {
     cout << "Problem 3\n";
     cout<<problemSolution3(165, 'M')<<endl;
     cout << "Problem 4\n";
-    cout<<problemSolution4( "FF FF FF FF FF FF")<<endl;
+    cout<<problemSolution4( "18:20:3F:20:AB:11")<<endl;
     cout << "Problem 5\n";
     cout<<problemSolution5(11, 2, '*')<<endl;
     return 0;
