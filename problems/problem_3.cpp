@@ -3,7 +3,7 @@
 std::string problemSolution3(float height, char S) {
     // write your code here
      std::string answer;
-     if (S = 'M') {
+     if (S == 'M') {
          if (height<170){
              answer = "short";
          }
@@ -14,7 +14,7 @@ std::string problemSolution3(float height, char S) {
              answer = "tall";
          }
      }
-    if (S = 'W') {
+    if (S == 'W') {
         if (height<160){
             answer = "short";
         }
